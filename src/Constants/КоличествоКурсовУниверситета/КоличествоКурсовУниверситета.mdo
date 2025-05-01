@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f059ce7c-e2e4-4768-8c0c-4751e539a2cd">
+  <producedTypes>
+    <managerType typeId="b681918c-9459-4011-af1b-7b4759514236" valueTypeId="65bf5a02-8602-4435-84af-6d35d8009e6f"/>
+    <valueManagerType typeId="4b5a2dd4-f590-458c-b976-ca6209cbb463" valueTypeId="d815cc4e-4bec-4e6b-a944-450b5e81e910"/>
+    <valueKeyType typeId="af52887b-e3d4-4014-86c9-31a0fde48826" valueTypeId="7aeebb93-c863-47af-b1c2-e7dde6883136"/>
+  </producedTypes>
+  <name>КоличествоКурсовУниверситета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество курсов университета</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

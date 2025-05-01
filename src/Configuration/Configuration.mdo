@@ -39,4 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <constants>Constant.КоличествоКурсовУниверситета</constants>
+  <constants>Constant.МаксимальнаяОценкаСтудента</constants>
+  <constants>Constant.НазваниеУниверситета</constants>
 </mdclass:Configuration>
