@@ -48,4 +48,5 @@
   <catalogs>Catalog.Факультеты</catalogs>
   <enums>Enum.ВидыКонтактныхДанных</enums>
   <enums>Enum.Пол</enums>
+  <enums>Enum.УченоеЗвание</enums>
 </mdclass:Configuration>
