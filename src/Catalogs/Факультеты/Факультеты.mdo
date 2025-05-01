@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aa16f4c-5573-4b7e-8c24-3601a34738cb">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aa16f4c-5573-4b7e-8c24-3601a34738cb">
   <producedTypes>
     <objectType typeId="523444d1-99ed-44c3-98d1-af9fd11dcddc" valueTypeId="45b2e0f3-b248-4449-bf2e-2b38dd731d40"/>
     <refType typeId="eca00faa-185b-43bb-a81c-5c99d7fc3696" valueTypeId="33429ada-e5a7-41cb-a845-3a3a572fc995"/>
@@ -19,6 +19,7 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -30,4 +31,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2134a3f0-1b5d-418d-9f83-42502c39e274">
+    <name>Декан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
