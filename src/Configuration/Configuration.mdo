@@ -46,5 +46,6 @@
   <catalogs>Catalog.Студенты</catalogs>
   <catalogs>Catalog.УчебныеГруппы</catalogs>
   <catalogs>Catalog.Факультеты</catalogs>
+  <enums>Enum.ВидыКонтактныхДанных</enums>
   <enums>Enum.Пол</enums>
 </mdclass:Configuration>
