@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70c66884-357f-4400-824b-4b03842b3895">
+  <producedTypes>
+    <refType typeId="f077dc12-f9ef-45f4-8e6b-dac727a817da" valueTypeId="8d7145d9-9399-49ff-a51a-7614b04593a1"/>
+    <listType typeId="8f96dc11-42d7-419d-bbe8-69a1bf56fe3a" valueTypeId="663ca710-fd62-43f8-a089-a4c222db9f5f"/>
+    <managerType typeId="01c7f38d-a80e-4d71-adda-ec5fa42888fc" valueTypeId="b0b56df6-f8c0-45cb-b9c6-b79fdef93e4a"/>
+  </producedTypes>
+  <name>УченоеЗвание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ученое звание</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6ce171e9-0437-4492-aabe-fdca04e90236">
+    <name>Доцент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доцент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00fdc349-d5eb-4043-9581-4b4e42fa11d8">
+    <name>Профессор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
