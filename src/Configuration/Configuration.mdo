@@ -39,6 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <constants>Constant.КоличествоКурсовУниверситета</constants>
   <constants>Constant.МаксимальнаяОценкаСтудента</constants>
   <constants>Constant.НазваниеУниверситета</constants>
