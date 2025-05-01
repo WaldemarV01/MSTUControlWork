@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aa16f4c-5573-4b7e-8c24-3601a34738cb">
+  <producedTypes>
+    <objectType typeId="523444d1-99ed-44c3-98d1-af9fd11dcddc" valueTypeId="45b2e0f3-b248-4449-bf2e-2b38dd731d40"/>
+    <refType typeId="eca00faa-185b-43bb-a81c-5c99d7fc3696" valueTypeId="33429ada-e5a7-41cb-a845-3a3a572fc995"/>
+    <selectionType typeId="d8c0062a-75d6-4e87-aed9-b4b33bc709c2" valueTypeId="c212c705-4abd-4379-a2fa-11b64e071903"/>
+    <listType typeId="2a65b56c-11a4-4a01-a12d-b29f85c09cd8" valueTypeId="479deca6-c2c8-4bb7-a241-e659b3604dd0"/>
+    <managerType typeId="85f0e5c1-c207-4ab5-8961-342950e91e6c" valueTypeId="bc77bc87-9fdb-4c12-9bc9-d47f6f89f0a1"/>
+  </producedTypes>
+  <name>Факультеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Факультеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Факультеты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Факультеты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

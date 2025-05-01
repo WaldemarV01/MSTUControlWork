@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbc209ee-8a1d-4d9b-b428-574f3c4aeccc">
+  <producedTypes>
+    <objectType typeId="13de8c49-165d-49a6-a474-5528946289b7" valueTypeId="7270117b-f621-41fa-bc8d-211c8aa84b0d"/>
+    <refType typeId="4648d353-29ac-435e-81d6-ae8de15894b8" valueTypeId="88c27e91-aa02-4225-9057-1590289ddd3c"/>
+    <selectionType typeId="ef8093c8-d719-4150-b270-f01703013dfc" valueTypeId="92f9187c-5121-48e0-96e4-527e79870ac3"/>
+    <listType typeId="1f389872-aba2-44b1-9552-eb34e953a357" valueTypeId="64da56f8-8395-47a1-b10a-70bd77c7eea1"/>
+    <managerType typeId="774fa5a7-95df-4a2c-9fdd-eea6ec6310ac" valueTypeId="6488e0af-c774-4428-be12-7190ab70fcce"/>
+  </producedTypes>
+  <name>УчебныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебные группы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчебныеГруппы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УчебныеГруппы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

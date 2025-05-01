@@ -42,4 +42,9 @@
   <constants>Constant.КоличествоКурсовУниверситета</constants>
   <constants>Constant.МаксимальнаяОценкаСтудента</constants>
   <constants>Constant.НазваниеУниверситета</constants>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Студенты</catalogs>
+  <catalogs>Catalog.УчебныеГруппы</catalogs>
+  <catalogs>Catalog.Факультеты</catalogs>
+  <enums>Enum.Пол</enums>
 </mdclass:Configuration>
