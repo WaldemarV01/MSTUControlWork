@@ -56,4 +56,5 @@
   <enums>Enum.УченоеЗвание</enums>
   <enums>Enum.ФормаОбучения</enums>
   <informationRegisters>InformationRegister.Учащиеся</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
 </mdclass:Configuration>

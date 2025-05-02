@@ -16,7 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="5c4dd3b5-085c-4d40-8343-b9e8bcafc1cf">

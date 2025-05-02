@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <registerRecords>InformationRegister.Учащиеся</registerRecords>
+  <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <tabularSections uuid="efc97918-b55e-4ef5-98f5-9cff5000d9aa">
