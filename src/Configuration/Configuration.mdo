@@ -55,4 +55,5 @@
   <enums>Enum.Пол</enums>
   <enums>Enum.УченоеЗвание</enums>
   <enums>Enum.ФормаОбучения</enums>
+  <informationRegisters>InformationRegister.Учащиеся</informationRegisters>
 </mdclass:Configuration>
