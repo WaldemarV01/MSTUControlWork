@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1062881-6c49-4b2f-81ab-562c1cc60a6b">
+  <producedTypes>
+    <objectType typeId="c47d9e89-91d0-476e-86de-08cb9472b503" valueTypeId="e892292a-b271-4344-a312-6934f0eb40ff"/>
+    <refType typeId="2a972f30-d498-4ffe-9ea0-d8eea65fe867" valueTypeId="53cbd2b7-26bf-4239-b8bc-55e412b8802c"/>
+    <selectionType typeId="65c05a9a-872b-45e0-84ed-a17e6baf822b" valueTypeId="a36f4520-ff21-4f91-953a-4dd5798c6a84"/>
+    <listType typeId="2cb951d2-3ff0-48d0-8b68-bd004205c787" valueTypeId="aeb1d4bc-cb11-497d-a9c6-a2d2f2f0abaf"/>
+    <managerType typeId="bc915891-5bcc-4d38-ba8c-6e4e3d945531" valueTypeId="2d8c72e0-f8e5-4c00-8e26-a5699251eb75"/>
+  </producedTypes>
+  <name>ОплатаОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата обучения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОплатаОбучения.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="aec832ef-7c24-43ba-846f-a5be588c9ae8">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40e96f34-168d-458f-989b-baddd86bdb0e">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

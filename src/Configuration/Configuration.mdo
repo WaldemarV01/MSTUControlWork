@@ -48,7 +48,11 @@
   <catalogs>Catalog.Студенты</catalogs>
   <catalogs>Catalog.УчебныеГруппы</catalogs>
   <catalogs>Catalog.Факультеты</catalogs>
+  <documents>Document.ОплатаОбучения</documents>
+  <documents>Document.ПриказОЗачислении</documents>
+  <documents>Document.ПриказОПереводе</documents>
   <enums>Enum.ВидыКонтактныхДанных</enums>
   <enums>Enum.Пол</enums>
   <enums>Enum.УченоеЗвание</enums>
+  <enums>Enum.ФормаОбучения</enums>
 </mdclass:Configuration>

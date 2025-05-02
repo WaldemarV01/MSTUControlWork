@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb7a193d-fc44-4e87-919a-caf111baea5e">
+  <producedTypes>
+    <objectType typeId="d56b2c90-3547-419c-bdab-25278b4bfc0b" valueTypeId="0f235587-14bd-49be-b57c-11c20b410bb2"/>
+    <refType typeId="33200260-b50b-4a45-b520-32cd8181cb62" valueTypeId="8cc8c213-ee81-4ae2-9d3e-d9b4a99a22cd"/>
+    <selectionType typeId="d9adf7bb-ef2f-4f2a-825a-e45b74cf08e8" valueTypeId="438a6eb0-b759-40c3-80b3-b688ee317be8"/>
+    <listType typeId="48deee7b-edbc-4680-9826-eb8315eb5c3a" valueTypeId="2a9811a3-5b15-4537-a677-12535a61c907"/>
+    <managerType typeId="1aea2ecd-2672-42f3-b309-1493246efaa5" valueTypeId="58018100-0270-4418-bbb8-20ed4a1fe5f9"/>
+  </producedTypes>
+  <name>ПриказОПереводе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказ о переводе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриказОПереводе.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="efc97918-b55e-4ef5-98f5-9cff5000d9aa">
+    <producedTypes>
+      <objectType typeId="1dfe4601-41cb-46c8-bfde-ede3db3015a9" valueTypeId="7361e764-df43-4cbd-8567-0eea719503b8"/>
+      <rowType typeId="b909095e-c572-49a3-8606-8e093067e1a0" valueTypeId="6cb4c106-b688-4cb7-a0cb-0f30b6203562"/>
+    </producedTypes>
+    <name>Студенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студенты</value>
+    </synonym>
+    <attributes uuid="95d7091e-5272-46a0-be8d-31193e9ec800">
+      <name>Студент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Студент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Студенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d37b032-174d-4631-b6f0-44874ebe0af6">
+      <name>ТекущийФакультет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущий факультет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Факультеты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cef8809c-415a-4122-8ad5-7c03567d8bb9">
+      <name>ТекущаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущая группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчебныеГруппы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dd21f85f-6d8d-4528-8ada-6cdfe895fd43">
+      <name>ТекущийКурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущий курс</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c548070c-3602-46f7-bfca-42efc100a5af">
+      <name>БудущийФакультет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Будущий факультет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Факультеты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="29a022a0-faae-4376-a278-92142bf0dbe2">
+      <name>БудущаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Будущая группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчебныеГруппы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e364d75e-9aa2-4b57-b7e2-6f7e9e4e2e37">
+      <name>БудущийКурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Будущий курс</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
