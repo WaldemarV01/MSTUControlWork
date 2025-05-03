@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриказОЗачислении.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>InformationRegister.Учащиеся</registerRecords>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -76,6 +77,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="bf7e64e2-c370-4fd5-9f5c-56b98c0f3a79">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="04772c94-9867-433d-bc93-d14218265a02">
     <producedTypes>
       <objectType typeId="df59d138-89a1-4dc5-b43e-a48921537723" valueTypeId="854c50cf-48a6-4fa1-9962-e7588e79a964"/>
