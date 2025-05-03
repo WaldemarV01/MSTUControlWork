@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dd184fe-3ddb-4551-b462-730cee3de00a">
+  <name>РабочиеПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие процессы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>ЗачислениеИПеревод</subsystems>
+  <subsystems>ОплатаОбучения</subsystems>
+</mdclass:Subsystem>

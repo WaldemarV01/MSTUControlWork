@@ -39,6 +39,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.РабочиеПроцессы</subsystems>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <constants>Constant.КоличествоКурсовУниверситета</constants>

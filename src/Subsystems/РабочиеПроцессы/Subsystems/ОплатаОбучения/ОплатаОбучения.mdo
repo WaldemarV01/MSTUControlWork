@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41b3c7de-f84b-4b77-a538-c3e8de9e58d1">
+  <name>ОплатаОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата обучения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.Взаиморасчеты</content>
+  <content>Document.ОплатаОбучения</content>
+  <parentSubsystem>Subsystem.РабочиеПроцессы</parentSubsystem>
+</mdclass:Subsystem>
