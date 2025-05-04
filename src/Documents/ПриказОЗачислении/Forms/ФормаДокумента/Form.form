@@ -445,8 +445,8 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
-      <event>BeforeRowChange</event>
-      <name>СтудентыПередНачаломИзменения</name>
+      <event>OnActivateCell</event>
+      <name>СтудентыПриАктивизацииЯчейки</name>
     </handlers>
     <searchStringAddition>
       <name>СтудентыСтрокаПоиска</name>
