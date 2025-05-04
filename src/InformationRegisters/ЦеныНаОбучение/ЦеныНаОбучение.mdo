@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5269059-d687-4dec-b7bf-c670075fa97b">
+  <producedTypes>
+    <selectionType typeId="397d399d-97ca-43e9-be6d-23cb2d0b07ff" valueTypeId="27fe47f2-13ce-47af-9a96-2f01813aa4e4"/>
+    <listType typeId="a60217dc-f9e3-4e84-a802-e37046f660b5" valueTypeId="a64847ba-7bdc-4403-9304-a3891e23e2ca"/>
+    <managerType typeId="9c7994e8-c87e-47b4-8cfe-91863e37c0b0" valueTypeId="cf9f9333-86fc-425f-a182-c4811c8c6daf"/>
+    <recordSetType typeId="f882d34c-d0cf-4e8a-8bb0-1a5e65e9ab2a" valueTypeId="ec6ac2ee-bb02-41fe-bd24-a4a18423a2ec"/>
+    <recordKeyType typeId="dd85f8b5-aec1-42a0-b72a-77033af384f4" valueTypeId="a2531f46-86da-4e03-94f9-ac1bfc8564a4"/>
+    <recordType typeId="25cf5117-943b-4316-acaa-e6451e53b820" valueTypeId="7bee7628-d6ca-480e-8e06-877613a22707"/>
+    <recordManagerType typeId="bf343bac-4d40-49e4-9c8d-21d80f4e4ec2" valueTypeId="ac8f72e7-26ef-432c-827c-ffc0af05ec3e"/>
+  </producedTypes>
+  <name>ЦеныНаОбучение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены на обучение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="455bc4ce-8f22-4078-a2df-42bc64574f93">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c04b3a88-4c87-41d4-a26c-4da2eb78da6d">
+    <name>Факультет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

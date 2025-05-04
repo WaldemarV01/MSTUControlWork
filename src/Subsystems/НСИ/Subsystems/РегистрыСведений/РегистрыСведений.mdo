@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.Учащиеся</content>
+  <content>InformationRegister.ЦеныНаОбучение</content>
   <parentSubsystem>Subsystem.НСИ</parentSubsystem>
 </mdclass:Subsystem>
